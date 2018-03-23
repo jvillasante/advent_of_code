@@ -14,4 +14,5 @@ clean:
 
 2015: clean
 	$(CP) $(SRC)/2015/inputs $(BIN)
-	$(CC) $(CFLAGS) -o $(BIN)/day01 $(SRC)/2015/solutions/day01.cpp
+	# $(CC) $(CFLAGS) -o $(BIN)/day01 $(SRC)/2015/solutions/day01.cpp
+	$(CC) $(CFLAGS) -o $(BIN)/day02 $(SRC)/2015/solutions/day02.cpp
